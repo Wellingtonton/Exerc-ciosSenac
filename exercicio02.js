@@ -8,11 +8,12 @@ function multiplicarMatrizes(A, B) { // Recebe as matrizes A e B, realiza os cá
     return resultado; // Retorna a matriz resultado, que contém o resultado da multiplicação das duas matrizes
 }
 
-// Definição das matrizes 2x2
+// Definição das matrizes 2x2 A e B
 let A = [[1, 2], [3, 4]]; // Matriz A
 let B = [[5, 6], [7, 8]]; // Matriz B
 
-// Multiplicação das matrizes chamando a função
+// Multiplicação das matrizes chamando a função multiplicarMatrizes
+// E armazenando o resultado na variável resultado
 let resultado = multiplicarMatrizes(A, B);
 
 // Resultado no console
@@ -23,4 +24,4 @@ console.log("Matriz B:", B); // Mostra a matriz B
 B.forEach(linha => console.log(linha.join(" ")));
 
 console.log("Resultado da multiplicação:", resultado); // Exibe o resultado da multiplicação
-resultado.forEach(linha => console.log(linha.join(" ")));
+resultado.forEach(linha => console.log(linha.join(" "))); // Mostra o resultado da multiplicação no console
